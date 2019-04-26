@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F427928322612A35008F1FBF /* spriteShatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427928222612A35008F1FBF /* spriteShatter.swift */; };
 		F48290592252976500A3E5CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48290582252976500A3E5CA /* AppDelegate.swift */; };
 		F482905B2252976500A3E5CA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F482905A2252976500A3E5CA /* GameScene.sks */; };
 		F482905D2252976500A3E5CA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F482905C2252976500A3E5CA /* Actions.sks */; };
@@ -16,6 +17,8 @@
 		F48290662252976600A3E5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48290642252976600A3E5CA /* Main.storyboard */; };
 		F48290722252976600A3E5CA /* LevelTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48290712252976600A3E5CA /* LevelTestTests.swift */; };
 		F482907D2252976600A3E5CA /* LevelTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F482907C2252976600A3E5CA /* LevelTestUITests.swift */; };
+		F482908B2252980900A3E5CA /* random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F482908A2252980900A3E5CA /* random.swift */; };
+		F4A015F3226FA00D00D44089 /* EntityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A015F2226FA00D00D44089 /* EntityClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F427928222612A35008F1FBF /* spriteShatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spriteShatter.swift; sourceTree = "<group>"; };
 		F48290552252976500A3E5CA /* LevelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48290582252976500A3E5CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F482905A2252976500A3E5CA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 		F48290782252976600A3E5CA /* LevelTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevelTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F482907C2252976600A3E5CA /* LevelTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTestUITests.swift; sourceTree = "<group>"; };
 		F482907E2252976600A3E5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F482908A2252980900A3E5CA /* random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = random.swift; sourceTree = "<group>"; };
+		F4A015F2226FA00D00D44089 /* EntityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +111,15 @@
 				F48290582252976500A3E5CA /* AppDelegate.swift */,
 				F482905A2252976500A3E5CA /* GameScene.sks */,
 				F482905C2252976500A3E5CA /* Actions.sks */,
+				F482908A2252980900A3E5CA /* random.swift */,
 				F482905E2252976500A3E5CA /* GameScene.swift */,
 				F48290602252976500A3E5CA /* ViewController.swift */,
 				F48290622252976600A3E5CA /* Assets.xcassets */,
 				F48290642252976600A3E5CA /* Main.storyboard */,
 				F48290672252976600A3E5CA /* Info.plist */,
 				F48290682252976600A3E5CA /* LevelTest.entitlements */,
+				F427928222612A35008F1FBF /* spriteShatter.swift */,
+				F4A015F2226FA00D00D44089 /* EntityClass.swift */,
 			);
 			path = LevelTest;
 			sourceTree = "<group>";
@@ -265,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F482908B2252980900A3E5CA /* random.swift in Sources */,
 				F48290612252976500A3E5CA /* ViewController.swift in Sources */,
 				F482905F2252976500A3E5CA /* GameScene.swift in Sources */,
+				F4A015F3226FA00D00D44089 /* EntityClass.swift in Sources */,
+				F427928322612A35008F1FBF /* spriteShatter.swift in Sources */,
 				F48290592252976500A3E5CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
